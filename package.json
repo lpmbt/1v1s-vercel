@@ -1,0 +1,12 @@
+{
+  "name": "1v1s-vercel",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "vercel dev"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
