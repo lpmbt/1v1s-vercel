@@ -1,0 +1,3 @@
+name = "1v1s-vercel4"
+main = "src/index.js"  # 改成你的 Worker 入口文件路径
+compatibility_date = "2026-06-20"
