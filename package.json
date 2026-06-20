@@ -1,12 +1,13 @@
 {
-  "name": "1v1s-vercel",
-  "version": "0.0.1",
+  "name": "1v1s-vercel4",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "vercel dev",
-    "start": "vercel dev"
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev"
   },
-  "engines": {
-    "node": ">=14"
+  "devDependencies": {
+    "wrangler": "^4.103.0"
   }
 }
